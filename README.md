@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is designed to control and manage data from multiple sensors used in a sensor platform, including SBL (Short Baseline Location) It is take that decision back and end up, Depth, and Oil sensors. It processes sensor data, calculates location coordinates based on sensor inputs, and sends data to a host PC for further use.
+This project is designed to control and manage data from multiple sensors used in a sensor platform, including SBL (Short Baseline Location), Depth, and Oil sensors. It processes sensor data, calculates location coordinates based on sensor inputs, and sends data to a host PC for further use.
 
 The system uses FreeRTOS for task management and inter-process communication, specifically queues, to handle sensor data, process it, and send it to the host PC. This README explains the system structure and key components of the Sensor Controller system.
 
